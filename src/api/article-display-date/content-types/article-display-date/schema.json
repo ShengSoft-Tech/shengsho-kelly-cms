@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_display_dates",
+  "info": {
+    "singularName": "article-display-date",
+    "pluralName": "article-display-dates",
+    "displayName": "articleDisplayDate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "articleDisplayDate": {
+      "type": "date"
+    }
+  }
+}
