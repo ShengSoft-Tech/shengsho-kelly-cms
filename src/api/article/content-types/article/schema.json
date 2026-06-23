@@ -84,6 +84,7 @@
         "shared.quote",
         "shared.rich-text",
         "shared.highlight-card",
+        "shared.article-intro",
         "shared.slider"
       ]
     }

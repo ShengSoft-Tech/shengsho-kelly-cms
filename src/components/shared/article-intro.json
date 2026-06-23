@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_article_intros",
+  "info": {
+    "displayName": "Article intro",
+    "icon": "layer",
+    "description": "Optional opening line + index list; enableNavLinks wires list items to #reason1…"
+  },
+  "options": {},
+  "attributes": {
+    "openingLine": {
+      "type": "text",
+      "required": false
+    },
+    "enableNavLinks": {
+      "type": "boolean",
+      "default": false
+    },
+    "navItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.intro-nav-item"
+    }
+  }
+}
