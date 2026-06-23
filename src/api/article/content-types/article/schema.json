@@ -83,6 +83,7 @@
         "shared.media",
         "shared.quote",
         "shared.rich-text",
+        "shared.highlight-card",
         "shared.slider"
       ]
     }
