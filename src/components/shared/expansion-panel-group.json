@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_expansion_panel_groups",
+  "info": {
+    "displayName": "Expansion panel group",
+    "icon": "layer",
+    "description": "Collapsible Q&A or help section (Material expansion panels)"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string",
+      "required": false
+    },
+    "itemsDefaultExpanded": {
+      "type": "boolean",
+      "default": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.expansion-panel-item",
+      "required": true,
+      "min": 1
+    }
+  }
+}

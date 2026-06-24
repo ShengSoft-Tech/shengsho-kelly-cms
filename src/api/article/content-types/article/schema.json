@@ -85,6 +85,7 @@
         "shared.rich-text",
         "shared.highlight-card",
         "shared.article-intro",
+        "shared.expansion-panel-group",
         "shared.slider"
       ]
     }
