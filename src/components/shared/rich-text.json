@@ -7,6 +7,11 @@
   },
   "options": {},
   "attributes": {
+    "sectionAnchor": {
+      "type": "string",
+      "required": false,
+      "description": "HTML id for in-page nav (e.g. section-1). Must match intro nav anchorId."
+    },
     "body": {
       "type": "richtext"
     }

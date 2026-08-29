@@ -7,12 +7,17 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "sectionAnchor": {
       "type": "string",
+      "required": false,
+      "description": "HTML id for in-page nav (e.g. picotin-pricing). Must match intro nav anchorId."
+    },
+    "title": {
+      "type": "richtext",
       "required": false
     },
     "footnote": {
-      "type": "text",
+      "type": "richtext",
       "required": false
     },
     "columns": {

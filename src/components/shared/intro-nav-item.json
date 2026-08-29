@@ -9,6 +9,11 @@
     "label": {
       "type": "string",
       "required": true
+    },
+    "anchorId": {
+      "type": "string",
+      "required": false,
+      "description": "Matches sectionAnchor on a block below (e.g. picotin-pricing). Used for intro nav links."
     }
   }
 }
