@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_table_chart_cells",
+  "info": {
+    "displayName": "Table chart cell",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_table_charts",
+  "info": {
+    "displayName": "Table chart",
+    "icon": "chartBubble",
+    "description": "Pricing / comparison table for blog posts (e.g. Hermès bag prices)."
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "footnote": {
+      "type": "text",
+      "required": false
+    },
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.table-chart-column",
+      "required": true,
+      "min": 1
+    },
+    "rows": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.table-chart-row",
+      "required": true,
+      "min": 1
+    }
+  }
+}

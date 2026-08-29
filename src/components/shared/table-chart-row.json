@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_table_chart_rows",
+  "info": {
+    "displayName": "Table chart row",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "cells": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.table-chart-cell"
+    }
+  }
+}
