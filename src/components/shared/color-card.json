@@ -25,13 +25,6 @@
       "type": "string",
       "required": true,
       "description": "CSS hex colour, for example #292827"
-    },
-    "imageCrop": {
-      "type": "enumeration",
-      "enum": ["full", "left", "center", "right"],
-      "default": "full",
-      "required": true,
-      "description": "Use full for a standalone image, or select one third of a three-card composite image"
     }
   }
 }
