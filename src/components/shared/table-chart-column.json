@@ -19,7 +19,7 @@
         "location"
       ],
       "default": "text",
-      "required": true,
+      "required": false,
       "description": "Controls how every cell in this column is rendered."
     },
     "width": {
@@ -30,7 +30,7 @@
         "wide"
       ],
       "default": "normal",
-      "required": true,
+      "required": false,
       "description": "Semantic column width used by the responsive table."
     }
   }
