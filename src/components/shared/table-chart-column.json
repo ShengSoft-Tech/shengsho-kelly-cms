@@ -9,6 +9,29 @@
     "header": {
       "type": "string",
       "required": true
+    },
+    "cellType": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "media",
+        "emphasis",
+        "location"
+      ],
+      "default": "text",
+      "required": true,
+      "description": "Controls how every cell in this column is rendered."
+    },
+    "width": {
+      "type": "enumeration",
+      "enum": [
+        "compact",
+        "normal",
+        "wide"
+      ],
+      "default": "normal",
+      "required": true,
+      "description": "Semantic column width used by the responsive table."
     }
   }
 }
