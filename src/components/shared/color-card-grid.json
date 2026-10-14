@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_color_card_grids",
+  "info": {
+    "displayName": "Color card grid",
+    "icon": "grid",
+    "description": "Three-column colour cards on desktop; horizontal snap scrolling on mobile"
+  },
+  "options": {},
+  "attributes": {
+    "sectionAnchor": {
+      "type": "string",
+      "required": false,
+      "description": "HTML id for in-page navigation"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.color-card",
+      "required": true,
+      "min": 1
+    }
+  }
+}

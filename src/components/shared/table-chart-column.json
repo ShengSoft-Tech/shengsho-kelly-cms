@@ -9,6 +9,18 @@
     "header": {
       "type": "string",
       "required": true
+    },
+    "cellType": {
+      "type": "enumeration",
+      "enum": ["text", "media", "emphasis", "location"],
+      "default": "text",
+      "required": true
+    },
+    "width": {
+      "type": "enumeration",
+      "enum": ["compact", "normal", "wide"],
+      "default": "normal",
+      "required": true
     }
   }
 }

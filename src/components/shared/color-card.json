@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_shared_color_cards",
+  "info": {
+    "displayName": "Color card",
+    "icon": "picture",
+    "description": "One image, colour swatch and label inside a color card grid"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "imageAlt": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "swatchColor": {
+      "type": "string",
+      "required": true,
+      "description": "CSS hex colour, for example #292827"
+    },
+    "imageCrop": {
+      "type": "enumeration",
+      "enum": ["full", "left", "center", "right"],
+      "default": "full",
+      "required": true,
+      "description": "Use full for a standalone image, or select one third of a three-card composite image"
+    }
+  }
+}

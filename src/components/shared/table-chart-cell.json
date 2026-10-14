@@ -9,6 +9,25 @@
     "value": {
       "type": "string",
       "required": false
+    },
+    "secondaryValue": {
+      "type": "string",
+      "required": false
+    },
+    "swatchColor": {
+      "type": "string",
+      "required": false,
+      "description": "CSS hex colour, for example #4B2A28"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "imageAlt": {
+      "type": "string",
+      "required": false
     }
   }
 }
