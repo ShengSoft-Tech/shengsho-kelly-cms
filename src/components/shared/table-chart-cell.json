@@ -12,22 +12,26 @@
     },
     "secondaryValue": {
       "type": "string",
-      "required": false
+      "required": false,
+      "description": "Optional supporting line, such as an SKU under a product name."
     },
     "swatchColor": {
       "type": "string",
       "required": false,
-      "description": "CSS hex colour, for example #4B2A28"
+      "description": "Optional HEX colour, such as #4B2A28. Used by media cells."
     },
     "image": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "imageAlt": {
       "type": "string",
-      "required": false
+      "required": false,
+      "description": "Accessible description for the image."
     }
   }
 }

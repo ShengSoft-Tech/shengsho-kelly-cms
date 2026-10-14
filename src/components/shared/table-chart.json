@@ -3,7 +3,7 @@
   "info": {
     "displayName": "Table chart",
     "icon": "chartBubble",
-    "description": "Pricing / comparison table for blog posts (e.g. Hermès bag prices)."
+    "description": "Responsive rich-media table for blog posts: text, image/swatch, emphasized label, and location columns."
   },
   "options": {},
   "attributes": {

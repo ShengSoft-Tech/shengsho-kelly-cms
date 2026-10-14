@@ -12,15 +12,26 @@
     },
     "cellType": {
       "type": "enumeration",
-      "enum": ["text", "media", "emphasis", "location"],
+      "enum": [
+        "text",
+        "media",
+        "emphasis",
+        "location"
+      ],
       "default": "text",
-      "required": true
+      "required": false,
+      "description": "Controls how every cell in this column is rendered."
     },
     "width": {
       "type": "enumeration",
-      "enum": ["compact", "normal", "wide"],
+      "enum": [
+        "compact",
+        "normal",
+        "wide"
+      ],
       "default": "normal",
-      "required": true
+      "required": false,
+      "description": "Semantic column width used by the responsive table."
     }
   }
 }
