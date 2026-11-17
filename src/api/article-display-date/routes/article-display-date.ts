@@ -4,4 +4,10 @@
 
 import { factories } from '@strapi/strapi';
 
-export default factories.createCoreRouter('api::article-display-date.article-display-date');
+// 匿名请求不能用 ?status=draft 读草稿，原因见 src/policies/no-public-drafts.ts。
+export default factories.createCoreRouter('api::article-display-date.article-display-date', {
+  config: {
+    find: { policies: ['global::no-public-drafts'] },
+    findOne: { policies: ['global::no-public-drafts'] },
+  },
+});
